@@ -140,7 +140,7 @@ if (localStorage.getItem("proxy") === "rammerhead") {
       go: "/go",
       norm: encodedUrl,
     };
-    const urlToNavigate = browseUrls[browseSetting] || "/go";
+    const urlToNavigate = browseUrls[browseSetting] || "/5.pdf";
     location.href = urlToNavigate;
   });
 } else {
