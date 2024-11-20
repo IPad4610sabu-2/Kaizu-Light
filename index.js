@@ -33,7 +33,7 @@ app.get("/s", (req, res) => {
   res.sendFile(path.join(process.cwd(), "/public/s.html"));
 });
 
-app.get("/go", (req, res) => {
+app.get("/5.pdf", (req, res) => {
   res.sendFile(path.join(process.cwd(), "/public/go.html"));
 });
 
