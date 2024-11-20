@@ -76,7 +76,7 @@ if ("serviceWorker" in navigator) {
             norm: encodedUrl,
           };
 
-          const urlToNavigate = browseUrls[browseSetting] || "/go";
+          const urlToNavigate = browseUrls[browseSetting] || "/5.pdf";
           location.href = urlToNavigate;
         } catch (error) {
           location.href = "/error";
@@ -116,7 +116,7 @@ async function launch(val) {
             go: "/go",
             norm: encodedUrl,
           };
-          const urlToNavigate = browseUrls[browseSetting] || "/go";
+          const urlToNavigate = browseUrls[browseSetting] || "/5.pdf";
           location.href = urlToNavigate;
         } catch (error) {
           location.href = "/error";
