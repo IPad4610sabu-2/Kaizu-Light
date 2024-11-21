@@ -129,6 +129,6 @@ async function launch(val) {
 }
 
 function ifUrl(val = "") {
-  const urlPattern = /^(http(s)?:\/\/)?([\w-]+\.)+[\w]{2,}(\/.*)?$/;
+  const urlPattern = /^(http(s)?:\/\/)?([\w-]+\.)+[\w]{2,}(\/.*)?$/5.pdf;
   return urlPattern.test(val);
 }
