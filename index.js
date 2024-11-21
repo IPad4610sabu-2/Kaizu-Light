@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(process.cwd(), "/public/index.html"));
 });
 
-app.get("/a", (req, res) => {
+app.get("/4.pdf", (req, res) => {
   res.sendFile(path.join(process.cwd(), "/public/a.html"));
 });
 
